@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/TabletClock/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/TabletClock/static/js/main.bfa1cf95.chunk.js",
+    "main.js.map": "/TabletClock/static/js/main.bfa1cf95.chunk.js.map",
+    "runtime-main.js": "/TabletClock/static/js/runtime-main.e0b9ea42.js",
+    "runtime-main.js.map": "/TabletClock/static/js/runtime-main.e0b9ea42.js.map",
+    "static/js/2.f1c9332d.chunk.js": "/TabletClock/static/js/2.f1c9332d.chunk.js",
+    "static/js/2.f1c9332d.chunk.js.map": "/TabletClock/static/js/2.f1c9332d.chunk.js.map",
+    "static/js/3.b09c3d69.chunk.js": "/TabletClock/static/js/3.b09c3d69.chunk.js",
+    "static/js/3.b09c3d69.chunk.js.map": "/TabletClock/static/js/3.b09c3d69.chunk.js.map",
+    "index.html": "/TabletClock/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/TabletClock/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.f1c9332d.chunk.js.LICENSE.txt": "/TabletClock/static/js/2.f1c9332d.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/TabletClock/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0b9ea42.js",
+    "static/js/2.f1c9332d.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.bfa1cf95.chunk.js"
+  ]
+}
