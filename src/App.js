@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        'https://api.coingecko.com/api/v3/coins/markets?vs_currency=USD&ids=bitcoin%2C%20ethereum%2C%20iota%2C%20xrp%2C%20litecoin%2C%20monero%2C%20stellar%2C%20nano%2C%20chainlink&order=market_cap_desc&per_page=50&page=1&sparkline=false'
+        'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2C%20ethereum%2C%20iota%2C%20nano&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h'
       )
       .then(res => {
         setCoins(res.data);
@@ -30,6 +30,7 @@ function App() {
             <th></th>
             <th>Coin</th>
             <th>Current Price</th>
+            <th>1H Change</th>
             <th>24H Change</th>
             <th>ATH</th>    
             <th>Market Cap</th>
@@ -42,6 +43,7 @@ function App() {
                     marketcap={coin.market_cap}
                     image={coin.image}
                     priceChange={coin.price_change_percentage_24h}
+                    hpriceChange={coin.price_change_percentage_1h_in_currency}
                     ath={coin.ath}
                   />
                 );
