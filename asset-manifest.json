@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TabletClock/static/css/main.1e093787.chunk.css",
-    "main.js": "/TabletClock/static/js/main.3cf67b1c.chunk.js",
-    "main.js.map": "/TabletClock/static/js/main.3cf67b1c.chunk.js.map",
+    "main.js": "/TabletClock/static/js/main.91735eb3.chunk.js",
+    "main.js.map": "/TabletClock/static/js/main.91735eb3.chunk.js.map",
     "runtime-main.js": "/TabletClock/static/js/runtime-main.5c96f7f0.js",
     "runtime-main.js.map": "/TabletClock/static/js/runtime-main.5c96f7f0.js.map",
     "static/js/2.80620628.chunk.js": "/TabletClock/static/js/2.80620628.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.5c96f7f0.js",
     "static/js/2.80620628.chunk.js",
     "static/css/main.1e093787.chunk.css",
-    "static/js/main.3cf67b1c.chunk.js"
+    "static/js/main.91735eb3.chunk.js"
   ]
 }
