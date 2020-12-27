@@ -69,3 +69,44 @@ th {
   color: #c5c6c7;
   font-size: 25vh;
 }
+
+/*Coin Table*/
+.market-title {
+  text-align: center;
+  color: #66fcf1;
+}
+
+.coin-img {
+  height: 30px;
+  width: 30px;
+}
+
+tr:nth-child(even) {
+  background: #45a29d1e;
+}
+
+tr {
+  height: 25px;
+}
+
+.red {
+  color: #f00606;
+}
+
+.green {
+  color: #11d811;
+}
+
+th {
+  font-size: 20px;
+  color: white;
+}
+
+td {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
