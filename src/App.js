@@ -1,13 +1,13 @@
 import './App.css';
 import Clock from 'react-digital-clock';
+import axios from 'axios';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Tablet Clock - Testing</h1>
-        <Clock format= {'hh-mm'} />
-      </header>
+    <div className="container">
+        <div className="clock">
+          <Clock format= {'hh-mm'} />
+        </div>
     </div>
   );
 }

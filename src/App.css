@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -23,7 +23,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+*/
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +35,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #0b0c10;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+td,
+th {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.container {
+  background-color: #0b0c10;
+  border-color: #45a29e;
+  border-style: solid;
+  color: #c5c6c7;
+  margin: auto;
+  width: 95%;
+  border-radius: 25px;
+  height: 96vh;
+}
+
+.clock {
+  color: #c5c6c7;
+  font-size: 25vh;
 }
