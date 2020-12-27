@@ -1,2 +1,0 @@
-(this.webpackJsonptablet_clock=this.webpackJsonptablet_clock||[]).push([[0],{19:function(c,t,e){},20:function(c,t,e){},40:function(c,t,e){"use strict";e.r(t);var n=e(1),s=e(2),a=e.n(s),o=e(12),r=e.n(o),i=(e(19),e(20),e(13)),l=e.n(i);e(21);var j=function(){return Object(n.jsx)("div",{className:"container",children:Object(n.jsx)("div",{className:"clock",children:Object(n.jsx)(l.a,{format:"hh-mm"})})})};r.a.render(Object(n.jsx)(a.a.StrictMode,{children:Object(n.jsx)(j,{})}),document.getElementById("root"))}},[[40,1,2]]]);
-//# sourceMappingURL=main.46293bb0.chunk.js.map
