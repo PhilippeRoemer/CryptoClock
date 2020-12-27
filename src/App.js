@@ -10,14 +10,14 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2C%20ethereum%2C%20iota%2C%20nano&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h'
+        'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2C%20ethereum%2C%20iota%2C%20nano%2C%20litecoin&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h'
       )
       .then(res => {
         setCoins(res.data);
         console.log(res.data);
       })
       .catch(error => console.log(error));
-  }, []);
+  }, [coins]);
 
   return (
     <div className="container">
