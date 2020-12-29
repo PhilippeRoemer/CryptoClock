@@ -159,3 +159,9 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
+
+.sparklineGraph {
+  width: 150px;
+  height: 50px;
+  padding-right: 20px;
+}
