@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CryptoClock/static/css/main.20ec575d.chunk.css",
+    "main.css": "/CryptoClock/static/css/main.dacc64ea.chunk.css",
     "main.js": "/CryptoClock/static/js/main.f67327b6.chunk.js",
     "main.js.map": "/CryptoClock/static/js/main.f67327b6.chunk.js.map",
     "runtime-main.js": "/CryptoClock/static/js/runtime-main.e6d9499e.js",
@@ -8,13 +8,13 @@
     "static/js/2.99bb72c8.chunk.js": "/CryptoClock/static/js/2.99bb72c8.chunk.js",
     "static/js/2.99bb72c8.chunk.js.map": "/CryptoClock/static/js/2.99bb72c8.chunk.js.map",
     "index.html": "/CryptoClock/index.html",
-    "static/css/main.20ec575d.chunk.css.map": "/CryptoClock/static/css/main.20ec575d.chunk.css.map",
+    "static/css/main.dacc64ea.chunk.css.map": "/CryptoClock/static/css/main.dacc64ea.chunk.css.map",
     "static/js/2.99bb72c8.chunk.js.LICENSE.txt": "/CryptoClock/static/js/2.99bb72c8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e6d9499e.js",
     "static/js/2.99bb72c8.chunk.js",
-    "static/css/main.20ec575d.chunk.css",
+    "static/css/main.dacc64ea.chunk.css",
     "static/js/main.f67327b6.chunk.js"
   ]
 }
