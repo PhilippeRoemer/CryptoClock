@@ -16,7 +16,13 @@ const Coin = ({
             <tr>
               <td ><img src={image} className='coin-img'/></td>
               <td><h3>{name}</h3></td>
-              <td><p>${price.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')}</p></td>
+              <td>
+                        {price > ath ? (
+                            <p className='ATHincoming'>${price.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')}</p>
+                        ) : (   
+                            <p>${price.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')}</p>
+                        )}
+              </td>
               <td>
                       {priceChange_1h < 0 && priceChange_1h > -10 ? (
                             <p className='red'>{priceChange_1h.toFixed(2)}%</p> 
@@ -53,9 +59,9 @@ const Coin = ({
               <td>${ath.toLocaleString()}</td>    
               <td>${marketcap.toLocaleString()}</td>
               <td className='sparklineGraph'>
-                    <Sparklines data={chart}>
-                        <SparklinesLine color="#66fcf1" />
-                    </Sparklines>
+                        <Sparklines data={chart}>
+                            <SparklinesLine color="#66fcf1" />
+                        </Sparklines>
               </td>
             </tr>
   );

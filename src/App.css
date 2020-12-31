@@ -148,6 +148,11 @@ tr {
   -ms-animation: fadeIn ease 1s;
 }
 
+.ATHincoming {
+  color: #f7ff00;
+  font-weight: bold;
+}
+
 th {
   font-size: 20px;
   color: white;
