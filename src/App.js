@@ -23,11 +23,11 @@ function App() {
 
   return (
     <div className="container">
-        <div className="clock">
-          <Clock format= {'hh-mm'} />
-        </div>
         <div className="date">
           <Moment format="MMMM D, YYYY" withTitle />
+        </div>
+        <div className="clock">
+          <Clock format= {'hh-mm'} />
         </div>
         <table>
           <tr>
