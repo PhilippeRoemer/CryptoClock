@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/CryptoClock/static/css/main.e0ca80dd.chunk.css",
-    "main.js": "/CryptoClock/static/js/main.ad148be9.chunk.js",
-    "main.js.map": "/CryptoClock/static/js/main.ad148be9.chunk.js.map",
+    "main.css": "/CryptoClock/static/css/main.d3909ff9.chunk.css",
+    "main.js": "/CryptoClock/static/js/main.dc9a8a3b.chunk.js",
+    "main.js.map": "/CryptoClock/static/js/main.dc9a8a3b.chunk.js.map",
     "runtime-main.js": "/CryptoClock/static/js/runtime-main.e6d9499e.js",
     "runtime-main.js.map": "/CryptoClock/static/js/runtime-main.e6d9499e.js.map",
-    "static/js/2.99bb72c8.chunk.js": "/CryptoClock/static/js/2.99bb72c8.chunk.js",
-    "static/js/2.99bb72c8.chunk.js.map": "/CryptoClock/static/js/2.99bb72c8.chunk.js.map",
+    "static/js/2.fe12e9f7.chunk.js": "/CryptoClock/static/js/2.fe12e9f7.chunk.js",
+    "static/js/2.fe12e9f7.chunk.js.map": "/CryptoClock/static/js/2.fe12e9f7.chunk.js.map",
     "index.html": "/CryptoClock/index.html",
-    "static/css/main.e0ca80dd.chunk.css.map": "/CryptoClock/static/css/main.e0ca80dd.chunk.css.map",
-    "static/js/2.99bb72c8.chunk.js.LICENSE.txt": "/CryptoClock/static/js/2.99bb72c8.chunk.js.LICENSE.txt"
+    "static/css/main.d3909ff9.chunk.css.map": "/CryptoClock/static/css/main.d3909ff9.chunk.css.map",
+    "static/js/2.fe12e9f7.chunk.js.LICENSE.txt": "/CryptoClock/static/js/2.fe12e9f7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e6d9499e.js",
-    "static/js/2.99bb72c8.chunk.js",
-    "static/css/main.e0ca80dd.chunk.css",
-    "static/js/main.ad148be9.chunk.js"
+    "static/js/2.fe12e9f7.chunk.js",
+    "static/css/main.d3909ff9.chunk.css",
+    "static/js/main.dc9a8a3b.chunk.js"
   ]
 }
