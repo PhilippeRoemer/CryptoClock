@@ -86,8 +86,15 @@ th {
 
 .clock {
   color: #c5c6c7;
-  font-size: 22vh;
+  font-size: 18vh;
   text-align: center;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.date {
+  text-align: center;
+  font-size: 4vh;
+  font-family: "Titillium Web", sans-serif;
 }
 
 /*Coin Table*/

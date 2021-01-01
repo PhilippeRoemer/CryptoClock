@@ -3,6 +3,7 @@ import './App.css';
 import Clock from 'react-digital-clock';
 import Coin from './components/Coin'
 import axios from 'axios';
+import Moment from 'react-moment';
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
     <div className="container">
         <div className="clock">
           <Clock format= {'hh-mm'} />
+        </div>
+        <div className="date">
+          <Moment format="MMMM D, YYYY" withTitle />
         </div>
         <table>
           <tr>
