@@ -12,7 +12,8 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2C%20ethereum%2C%20litecoin%2C%20iota%2C%20nano&order=market_cap_desc&per_page=100&page=1&sparkline=true&price_change_percentage=7d%2C1h%2C24h'
+        //'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2C%20ethereum%2C%20litecoin%2C%20iota%2C%20nano&order=market_cap_desc&per_page=100&page=1&sparkline=true&price_change_percentage=7d%2C1h%2C24h'
+        'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Clitecoin%2Ciota%2Cmonero&order=market_cap_desc&per_page=100&page=1&sparkline=true&price_change_percentage=1h%2C24h%2C7d'
         )
       .then(res => {
         setCoins(res.data);
