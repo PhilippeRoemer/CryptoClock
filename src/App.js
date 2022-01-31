@@ -8,17 +8,25 @@ import Moment from "react-moment";
 function App() {
     const [coins, setCoins] = useState([]);
 
-    useEffect(() => {
+    const CryptoData = () => {
         axios
-            .get(
-                "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Clitecoin%2Ciota%2Cmonero&order=market_cap_desc&per_page=100&page=1&sparkline=true&price_change_percentage=1h%2C24h%2C7d"
-            )
-            .then((res) => {
-                setCoins(res.data);
-                console.log(res.data);
+            .get("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2C%20ethereum%2C%20iota%2C%20litecoin%2C%20cardano&order=market_cap_desc&per_page=100&page=1&sparkline=true&price_change_percentage=1h%2C24h%2C7d")
+            .then((response) => {
+                setCoins(response.data);
             })
-            .catch((error) => console.log(error));
-    }, [coins]);
+            .catch((errors) => console.log(errors));
+    };
+
+    /* Pulls crypto data on load and updates every 10 seconds */
+    useEffect(() => {
+        CryptoData();
+        const interval = setInterval(() => {
+            CryptoData();
+            const updateTime = new Date();
+            console.log("Crypto data updated at: " + updateTime.toLocaleTimeString());
+        }, 10000);
+        return () => clearInterval(interval);
+    }, []);
 
     return (
         <div className="container">
